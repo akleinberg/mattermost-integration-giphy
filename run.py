@@ -15,6 +15,8 @@ if __name__ == "__main__":
         print("MATTERMOST_GIPHY_TOKEN must be configured. Please see README.md for instructions")
         sys.exit()
 
-    port = os.environ.get('MATTERMOST_GIPHY_PORT', None) or os.environ.get('PORT', 5000)
-    host = os.environ.get('MATTERMOST_GIPHY_HOST', None) or os.environ.get('HOST', '127.0.0.1')
+#    port = os.environ.get('MATTERMOST_GIPHY_PORT', None) or os.environ.get('PORT', 5000)
+#    host = os.environ.get('MATTERMOST_GIPHY_HOST', None) or os.environ.get('HOST', '127.0.0.1')
+     port = 5000
+     host = chat.zipscene.com
     app.run(host=str(host), port=int(port))
