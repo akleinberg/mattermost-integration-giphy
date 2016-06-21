@@ -100,4 +100,4 @@ if __name__ == "__main__":
 
     port = int(os.environ.get('MATTERMOST_GIPHY_PORT', 5000))
     # use 0.0.0.0 if it shall be accessible from outside of host
-    app.run(host='127.0.0.1', port=port)
+    app.run(host='54.161.211.180', port=port)
