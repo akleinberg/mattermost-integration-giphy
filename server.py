@@ -15,7 +15,7 @@ RATING = 'pg' # the maximum parental rating of gifs posted (y, pg, pg-13, r)
 SCHEME = 'https' # scheme to be used for the gif url returned to mattermost
 
 GIPHY_API_KEY = 'dc6zaTOxFJmzC' # this is a public beta key, for production use you must go to http://api.giphy.com/submit and request a production key
-MATTERMOST_GIPHY_TOKEN = '6onmmu4ocj8tmddgkfrg6duz1r' # the Mattermost token generated when you created your outgoing webhook
+MATTERMOST_GIPHY_TOKEN = '4c1qx6fb1ff6pfr8c5fjcnhe7y' # the Mattermost token generated when you created your outgoing webhook
 
 @app.route('/')
 def root():
