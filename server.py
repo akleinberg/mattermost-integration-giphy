@@ -100,4 +100,4 @@ if __name__ == "__main__":
 
     port = int(os.environ.get('MATTERMOST_GIPHY_PORT', 5000))
     # use 0.0.0.0 if it shall be accessible from outside of host
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='chat.zipscene.com', port=port)
